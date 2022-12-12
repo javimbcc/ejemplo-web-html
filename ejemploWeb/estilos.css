@@ -16,3 +16,11 @@
     flex-direction: row;
     display: flex;
 }
+
+@media all and (max-width: 500px) {
+    .cards-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
