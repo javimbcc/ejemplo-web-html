@@ -1,0 +1,18 @@
+.myCard {
+  flex-direction: column;
+  display: flex;
+  margin: 50px;
+  background-color: grey;
+  width: 300px;
+  border-radius: 16px;
+}
+
+.myImage {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.cards-row {
+    flex-direction: row;
+    display: flex;
+}
